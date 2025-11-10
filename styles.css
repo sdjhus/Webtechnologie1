@@ -1,0 +1,67 @@
+*{ 
+    color: blue;
+    outline-style: dotted;
+
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+h1,h2{
+    color: rgb(0, 0, 255);
+}
+
+h3 /*Selektor wass ist von dem designe betroffen*/
+{
+    color: rgba(0,255, 0, 0.5); /*Definition designe*/
+}
+
+h4
+{
+color: #fff;
+}
+
+h5
+{
+    color: #ff0000;
+}
+
+.ue1 /* aufreuf Klasse WICHTIG eine klasse hat mehr gewicht wird also zu z.b. H1 beforzugt*/
+{
+color: aquamarine;
+}
+
+#ue2 /* aufreuf ID WICHTIG eine ID hat mehr gewicht wird also zu z.b. einer Klass beforzugt*/
+{
+    color:grey
+}
+ol li /* nur li die unter einem ol liegen werden grün*/
+{
+    color: green;
+}
+
+ol b /*b unter OL sind grün*/
+{
+color: green;
+}
+
+ol>li /*nur Direkt unterliegendes LI*/
+{
+
+}
+
+ol>li:nth-child(1) /*nur der xte Direkt unterliegendes LI*/
+{
+
+} 
+a:link, a:visited
+{
+    background-color: #ff0000;
+}
+
+a:hover
+{
+    background-color: green;
+}
